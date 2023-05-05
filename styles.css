@@ -1,1 +1,23 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  width: 400px;
+}
 
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.description-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
